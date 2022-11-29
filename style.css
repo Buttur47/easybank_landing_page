@@ -1,9 +1,31 @@
 html,
 body {
-    height: 100%;
+    height: 200%;
     max-width: 100%;
     overflow-x: hidden;
     overflow-y:scroll;
+}
+
+@font-face {
+    font-family:"Public Sans";
+    src: url("Public Sans/static/PublicSans-Thin.ttf") format("truetype");
+    font-weight: 300, 400, 700;
+}
+
+@font-face {
+    font-family:"Public Sans Grey";
+    src: url("Public Sans/static/PublicSans-SemiBold.ttf") format("truetype");
+    font-weight: 300, 400, 700;
+}
+
+h1 {
+    font-family: "Public Sans";
+}
+
+p {
+    font-family: "Public Sans Grey";
+    font-size: 15px;
+    color: grey;
 }
 
 .button:focus {
@@ -53,6 +75,46 @@ body {
     left: 8%;
 }
 
+#credit_cards  {
+    width: 20%;
+    height: 9%;
+    display: flex;
+    margin: auto;
+    position: absolute;
+    top: 890px;
+    left: 40%;
+}
+
+#budgeting {
+    width: 20%;
+    height: 9%;
+    display: flex;
+    margin: auto;
+    position: absolute;
+    top: 1110px;
+    left: 40%;
+}
+
+#onboarding {
+    width: 20%;
+    height: 9%;
+    display: flex;
+    margin: auto;
+    position: absolute;
+    top: 1330px;
+    left: 40%;
+}
+
+#api {
+    width: 20%;
+    height: 9%;
+    display: flex;
+    margin: auto;
+    position: absolute;
+    top: 1550px;
+    left: 40%;
+}
+
 .banner {
     background-color: hsl(0, 0%, 100%);
     position: fixed;
@@ -64,7 +126,7 @@ body {
 }
 
 .next_gen {
-    background-color: green;
+    background-color: white;
     width: 80%;
     height: 30%;
     position: absolute;
@@ -74,7 +136,10 @@ body {
 }
 
 .request_invite {
-    background-color: blue;
+    background:
+    linear-gradient(to top left, hsl(192, 70%, 51%), transparent),
+    linear-gradient(to top right, hsl(136, 86%, 42%), transparent);
+    background-blend-mode: difference;
     width: 40%;
     height: 15%;
     position: absolute;
@@ -85,12 +150,62 @@ body {
     line-height: 50%; 
 }
 
+.back_div {
+    background-color: hsl(0, 0%, 98%);
+    width: 101%;
+    height: 1100px;
+    position: absolute;
+    display: flex;
+    top: 690px;
+    left: -1%;
+}
+
 .why_choose {
-    background-color: purple;
+    background-color: hsl(0, 0%, 98%);
     width: 80%;
-    height: 30%;
+    height: 20%;
     position: absolute;
     display: inline-block;
-    top: 700px;
+    top: 690px;
+    left: 10%;
+}
+
+.online_banking {
+    background-color: hsl(0, 0%, 98%);
+    width: 80%;
+    height: 18%;
+    position: absolute;
+    display: inline-block;
+    top: 970px;
+    left: 10%;
+}
+
+.simple_budgeting {
+    background-color: hsl(0, 0%, 98%);
+    width: 80%;
+    height: 18%;
+    position: absolute;
+    display: inline-block;
+    top: 1190px;
+    left: 10%;
+}
+
+.fast_onboarding {
+    background-color: hsl(0, 0%, 98%);
+    width: 80%;
+    height: 18%;
+    position: absolute;
+    display: inline-block;
+    top: 1410px;
+    left: 10%;
+}
+
+.open_api {
+    background-color: hsl(0, 0%, 98%);
+    width: 80%;
+    height: 18%;
+    position: absolute;
+    display: inline-block;
+    top: 1630px;
     left: 10%;
 }
