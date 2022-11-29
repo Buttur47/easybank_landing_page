@@ -1,0 +1,78 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+#logo {
+    width: 20%;
+    height: 25%;
+    display: flex;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 5%;
+}
+
+#menu {
+    width: 20%;
+    height: 20%;
+    display: flex;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+}
+
+#intro_mobile {
+    width: 450px;
+    height: 50%;
+    display: flex;
+    margin: auto;
+    position: absolute;
+    top: 1%;
+}
+
+#mockups {
+    width: 85%;
+    height: 50%;
+    display: flex;
+    margin: auto;
+    position: absolute;
+    top: -65px;
+    left: 8%;
+}
+
+.banner {
+    background-color: hsl(0, 0%, 100%);
+    position: absolute;
+    width: 800px;
+    height: 10%;
+    left: center;
+    margin: -25px 0 0 -25px;
+    display: flex;
+}
+
+.next_gen {
+    background-color: green;
+    width: 80%;
+    height: 30%;
+    position: absolute;
+    display: inline-block;
+    top: 45%;
+    left: 10%;
+}
+
+.request_invite {
+    background-color: blue;
+    width: 40%;
+    height: 15%;
+    position: absolute;
+    display: inline-block;
+    top: 75%;
+    left: 28%;
+    border-radius: 20px;
+    line-height: 50%; 
+}
