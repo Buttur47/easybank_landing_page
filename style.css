@@ -1,9 +1,11 @@
 html,
 body {
-    height: 200%;
+    height: 217%;
     max-width: 100%;
     overflow-x: hidden;
-    overflow-y:scroll;
+    overflow-y: scroll;
+    margin: 0%;
+    padding:0%
 }
 
 @font-face {
@@ -127,6 +129,103 @@ p {
     border-top-right-radius: 10px;
 }
 
+#restaurant {
+    width: 100%;
+    height: 45%;
+    display: flex;
+    margin: auto;
+    position: absolute;
+    top: auto;
+    left: 0%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#plane {
+    width: 100%;
+    height: 45%;
+    display: flex;
+    margin: auto;
+    position: absolute;
+    top: auto;
+    left: 0%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#confetti {
+    width: 100%;
+    height: 45%;
+    display: flex;
+    margin: auto;
+    position: absolute;
+    top: auto;
+    left: 0%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#logo1 {
+    width: 35%;
+    height: auto;
+    display: flex;
+    margin: auto;
+    position: absolute;
+    top: 6%;
+    left: 33%;
+    filter: invert(100%);
+} 
+
+#facebook {
+    width: auto;
+    height: auto;
+    display: flex;
+    margin: auto;
+    position: absolute;
+    top: 16%;
+    left: 27%;
+}
+
+#youtube {
+    width: auto;
+    height: auto;
+    display: flex;
+    margin: auto;
+    position: absolute;
+    top: 16%;
+    left: 37%;
+}
+
+#twitter {
+    width: auto;
+    height: auto;
+    display: flex;
+    margin: auto;
+    position: absolute;
+    top: 16%;
+    left: 47%;
+}
+
+#pintrest {
+    width: auto;
+    height: auto;
+    display: flex;
+    margin: auto;
+    position: absolute;
+    top: 16%;
+    left: 58%;
+}
+
+#instagram {
+    width: auto;
+    height: auto;
+    display: flex;
+    margin: auto;
+    position: absolute;
+    top: 16%;
+    left: 69%;
+}
+
 .banner {
     background-color: hsl(0, 0%, 100%);
     position: fixed;
@@ -170,6 +269,7 @@ p {
     display: flex;
     top: 690px;
     left: -1%;
+    overflow: hidden;
 }
 
 .why_choose {
@@ -237,7 +337,7 @@ p {
 .recieve_money {
     background-color: hsl(0, 0%, 98%);
     width: 80%;
-    height: 370px;
+    height: 375px;
     position: absolute;
     display: flex;
     top: 1940px;
@@ -255,4 +355,126 @@ p {
     left: 10%;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
+}
+
+.treat_yourself {
+    background-color: hsl(0, 0%, 98%);
+    width: 80%;
+    height: 375px;
+    position: absolute;
+    display: flex;
+    top: 2350px;
+    left: 10%;
+    border-radius: 10px;
+}
+
+.treat_yourself_des {
+    background-color: hsl(0, 0%, 98%);
+    width: 80%;
+    height: 150px;
+    position: absolute;
+    display: inline;
+    top: 2530px;
+    left: 10%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.take_your_easybank {
+    background-color: hsl(0, 0%, 98%);
+    width: 80%;
+    height: 375px;
+    position: absolute;
+    display: flex;
+    top: 2750px;
+    left: 10%;
+    border-radius: 10px;
+}
+
+.take_your_easybank_des {
+    background-color: hsl(0, 0%, 98%);
+    width: 80%;
+    height: 150px;
+    position: absolute;
+    display: inline;
+    top: 2930px;
+    left: 10%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.invite_only {
+    background-color: hsl(0, 0%, 98%);
+    width: 80%;
+    height: 375px;
+    position: absolute;
+    display: flex;
+    top: 3160px;
+    left: 10%;
+    border-radius: 10px;
+}
+
+.invite_only_des {
+    background-color: hsl(0, 0%, 98%);
+    width: 80%;
+    height: 150px;
+    position: absolute;
+    display: inline;
+    top: 3340px;
+    left: 10%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.footer {
+    background-color: hsl(233, 26%, 24%);
+    width: 100%;
+    height: 550px;
+    overflow: hidden;
+    position: absolute;
+    display: inline;
+    top: 3610px;
+    left: 0%;
+    text-align: center;
+    overflow-x: hidden !important;
+}
+
+.footer1 {
+    background-color: hsl(233, 26%, 24%);
+    width: 101%;
+    height: 550px;
+    overflow: hidden;
+    position: absolute;
+    display: inline;
+    top: 3610px;
+    left: 0px;
+    text-align: center;
+    overflow-x: hidden !important;
+}
+
+.footer_text {
+    position: absolute;
+    text-align: center;
+    display: inline;
+    color: white;
+    font-family: "Public Sans Grey";
+}
+
+.request_invite1 {
+    background:
+    linear-gradient(to top left, hsl(192, 70%, 51%), transparent),
+    linear-gradient(to top right, hsl(136, 86%, 42%), transparent);
+    background-blend-mode: difference;
+    width: 40%;
+    height: 8%;
+    position: absolute;
+    display: inline-block;
+    top: 75%;
+    left: 28%;
+    border-radius: 30px;
+    line-height: 50%;
+    text-align: center; 
+    border: none; color: white; 
+    top: 65%; 
+    left: 30%; 
 }
