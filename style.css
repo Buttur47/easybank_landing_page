@@ -1,6 +1,6 @@
 html,
 body {
-    height: 216%;
+    height: 210%;
     max-width: 100%;
     /* overflow-x: hidden;
     overflow-y: scroll; */
@@ -246,7 +246,7 @@ p {
     height: 15%;
     position: absolute;
     display: inline-block;
-    top: 75%;
+    top: 85%;
     left: 28%;
     border-radius: 20px;
     line-height: 50%; 
@@ -527,8 +527,8 @@ p {
     display: flex;
     margin: 0;
     position: absolute;
-    top: 50%;
-    left: 40%;
+    top: 54%;
+    left: 38%;
     overflow-y: hidden;
 }
 
