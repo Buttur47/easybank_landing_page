@@ -4,9 +4,10 @@ document.addEventListener("DOMContentLoaded", function(event){
 
   drp_butt.onclick = function() {
     var drp = document.getElementById("dropdown_menu");
-    //debugger
-    //console.log("drp.style.display ", drp.style.display);
+    var shadow = document.getElementById("light_room")
     drp.classList.toggle('hidden');
+    shadow.classList.toggle('hidden');
+    document.html.style.overflow = "hidden";
   };
 
 })
