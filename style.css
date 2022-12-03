@@ -2,8 +2,8 @@ html,
 body {
     height: 216%;
     max-width: 100%;
-    overflow-x: hidden;
-    overflow-y: scroll;
+    /* overflow-x: hidden;
+    overflow-y: scroll; */
     margin: 0%;
     padding:0%
 }
@@ -506,10 +506,19 @@ p {
     animation-name: menu_animation1;
     animation-duration: 2s;
     animation-fill-mode: forwards;
+    overflow-y: hidden !important;
 }
 
 .hidden {
     display: none !important;
+}
+
+.shown {
+    display: flex !important;
+}
+
+.no_scroll {
+    overflow: hidden !important; 
 }
 
 #menu {
@@ -520,5 +529,17 @@ p {
     position: absolute;
     top: 50%;
     left: 40%;
+    overflow-y: hidden;
 }
 
+#exit_menu {
+    width: 20%;
+    height: 20%;
+    display: flex;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    overflow-y: hidden;
+    display: none;
+}
